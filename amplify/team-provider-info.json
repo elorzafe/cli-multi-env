@@ -13,5 +13,20 @@
         "auth": {
             "cognito247f0ddb": {}
         }
+    },
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "test-env-20181114184913-authRole",
+            "UnauthRoleArn": "arn:aws:iam::827149277658:role/test-env-20181114184913-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::827149277658:role/test-env-20181114184913-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "test-env-20181114184913-deployment",
+            "UnauthRoleName": "test-env-20181114184913-unauthRole",
+            "StackName": "test-env-20181114184913",
+            "StackId": "arn:aws:cloudformation:us-west-2:827149277658:stack/test-env-20181114184913/09680f80-e881-11e8-9453-500c33711099"
+        },
+        "auth": {
+            "cognito247f0ddb": {}
+        }
     }
 }

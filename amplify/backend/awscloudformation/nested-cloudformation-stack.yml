@@ -81,7 +81,7 @@
 		"authcognito247f0ddb": {
 			"Type": "AWS::CloudFormation::Stack",
 			"Properties": {
-				"TemplateURL": "https://s3.amazonaws.com/test-env-20181114184002-deployment/amplify-cfn-templates/auth/cognito247f0ddb-cloudformation-template.yml",
+				"TemplateURL": "https://s3.amazonaws.com/test-env-20181114184913-deployment/amplify-cfn-templates/auth/cognito247f0ddb-cloudformation-template.yml",
 				"Parameters": {
 					"identityPoolName": "cognito247f0ddb_identitypool_247f0ddb",
 					"allowUnauthenticatedIdentities": false,
@@ -139,14 +139,14 @@
 							"Arn"
 						]
 					},
-					"env": "dev"
+					"env": "prod"
 				}
 			}
 		},
 		"storages319695180": {
 			"Type": "AWS::CloudFormation::Stack",
 			"Properties": {
-				"TemplateURL": "https://s3.amazonaws.com/test-env-20181114184002-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
+				"TemplateURL": "https://s3.amazonaws.com/test-env-20181114184913-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
 				"Parameters": {
 					"bucketName": "test-env59bdf1d61b0f439ea2547a9821d48053",
 					"authPolicyName": "s3_amplify_19695180",
@@ -159,7 +159,7 @@
 					},
 					"authPermissions": "rw",
 					"unauthPermissions": "",
-					"env": "dev"
+					"env": "prod"
 				}
 			}
 		}
